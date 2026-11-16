@@ -1,0 +1,25 @@
+scenario,ground_truth,tenant_id,sender_email,subject,expected_layers
+legitimo_arca_real,legitimo,tenant-andina,no-responder@arca.gob.ar,Vencimiento de presentacion mensual,
+legitimo_cambio_cbu_verificado,legitimo,tenant-andina,marisa.lopez@quimicadelsur.com.ar,RE: Actualizacion de cuenta para pagos - Quimica del Sur,
+legitimo_cliente_consulta,legitimo,tenant-rivas,administracion@clinicasanjorge.com.ar,Consulta por el recibo de una empleada,
+legitimo_deposito_temprano,legitimo,tenant-andina,rodrigo.sosa@andina.com.ar,Faltantes para el armado de hoy,
+legitimo_gerente_urgente,legitimo,tenant-andina,martin.bilbao@andina.com.ar,Necesito el resumen de cuentas para hoy a las 15,
+legitimo_proveedor_nuevo,legitimo,tenant-andina,ventas@embalajesdelnorte.com.ar,Presentacion comercial - Embalajes del Norte,
+arca_falso,phishing,tenant-andina,notificaciones@arca-gob.com.ar,Intimacion de pago - vencimiento inminente,2;3;5
+bec_display_name_gerente,phishing,tenant-andina,mbilbao.direccion@gmail.com,Operacion confidencial - necesito tu ayuda,2;3;5
+bec_socia_display_name,phishing,tenant-rivas,elena.rivas.estudio@gmail.com,Cambio de cuenta para el pago de sueldos,2;3;5
+cambio_cbu_en_hilo,phishing,tenant-andina,cobranzas@arriba-insumos.com.ar,RE: Factura A-0004-00018472 - vencimiento,2;3;5
+credenciales_workspace,phishing,tenant-andina,soporte@workspace-notificaciones.com,Su contrasena expira hoy - accion requerida,2;5
+cuenta_comprometida,phishing,tenant-andina,rodolfo.ferreyra@arriba.com.ar,pago pendiente,1;4;5
+factura_falsa_adjunto,phishing,tenant-andina,facturacion@servicios-corporativos-arg.com,Factura impaga 00184722 - reclamo formal,2;5
+homoglifo_cirilico_interno,phishing,tenant-andina,martin.bilbao@аndina.com.ar,Autorizacion de pago urgente,2;3;5
+homografo_arca_rivas,phishing,tenant-rivas,intimaciones@arca-gov.com.ar,Suspension de clave fiscal de sus representados,2;3;5
+homografo_proveedor,phishing,tenant-andina,rodolfo.ferreyra@ariiba.com.ar,Actualizacion de datos bancarios - Arriba Insumos SRL,2;3;5
+phishing_banco_masivo,phishing,tenant-andina,seguridad@bancodelplata-online.com,Su cuenta empresa sera suspendida en 24 horas,2;3;5
+proveedor_fuera_de_horario,phishing,tenant-andina,cobranzas@arriba.com.ar,Reenvio: orden de pago para hoy,1;4;5
+rafaga_remitente_nuevo_1,phishing,tenant-andina,dpto.legales@estudio-vinculos.com,Notificacion judicial 1/3,2;4;5
+rafaga_remitente_nuevo_2,phishing,tenant-andina,dpto.legales@estudio-vinculos.com,Notificacion judicial 2/3 - URGENTE,2;4;5
+rafaga_remitente_nuevo_3,phishing,tenant-andina,dpto.legales@estudio-vinculos.com,Notificacion judicial 3/3 - ultimo aviso,2;4;5
+reply_to_divergente,phishing,tenant-andina,marisa.lopez@quimicadelsur.com.ar,Cotizacion revisada - responder a casilla alternativa,1;5
+spear_gift_cards,phishing,tenant-andina,m.bilbao@direccion-andina.com,Reconocimiento para el equipo de deposito,2;3;5
+tld_swap_proveedor,phishing,tenant-andina,rodolfo.ferreyra@arriba.com,Lista de precios actualizada y nueva cuenta,2;3;5
